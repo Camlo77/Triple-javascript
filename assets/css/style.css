@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.b1{
+    background-color: greenyellow;
+}
+.b2{
+    background-color: cornflowerblue;
+}
+.b3{
+    background-color: palevioletred;
+}
+
+.div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
