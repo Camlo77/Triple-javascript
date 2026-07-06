@@ -1,20 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bodoni Moda", serif;
 }
 
-.b1{
-    background-color: rgb(21, 124, 172);
+.b1 {
+  background-color: rgb(21, 124, 172);
 }
-.b2{
-    background-color: cornflowerblue;
+.b2 {
+  background-color: rgb(68, 114, 199);
 }
-.b3{
-    background-color: palevioletred;
+.b3 {
+  background-color: palevioletred;
 }
 
-.div-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nirvanaimg {
+  width: 25rem;
+  margin-top: 5rem;
+  border-radius: 10px;
+}
+
+.page2-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  color: rgb(255, 238, 0);
+}
+.card-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.card-box img {
+  width: 18rem;
+  border-radius: 10px;
+  border: 5px solid rgb(236, 173, 0);
+}
+.result {
+  display: flex;
+  justify-content: center;
 }
