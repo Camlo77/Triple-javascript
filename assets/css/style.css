@@ -12,22 +12,19 @@
 .b2 {
   background-color: rgb(68, 114, 199);
 }
-.b3 {
-  background-color: palevioletred;
-}
 
 .div-1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+/* Pagina 1*/
 #nirvanaimg {
   width: 25rem;
   margin-top: 5rem;
   border-radius: 10px;
 }
-
+/* Pagina 2*/
 .page2-grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -49,4 +46,19 @@
 .result {
   display: flex;
   justify-content: center;
+}
+/* Pagina 3*/
+.b3 {
+  background-color: palevioletred;
+}
+
+.password-selects{
+  display: flex;
+}
+.page2-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 0, 0);
 }
